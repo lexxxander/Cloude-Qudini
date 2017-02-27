@@ -1,0 +1,7 @@
+com\qudini\ws\WebServiceEndPointSetting.class
+com\qudini\ws\JsonJodaDateTimeSerializer.class
+com\qudini\ws\MultipartUtility.class
+com\qudini\ws\Customer.class
+com\qudini\ws\CustomerList.class
+com\qudini\ws\response\WebServiceResponse.class
+com\qudini\ws\DownloadController.class

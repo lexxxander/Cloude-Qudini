@@ -1,0 +1,134 @@
+<section class="content" style="font-family: Calibri;">
+<div ng-controller="HomeController">
+				<div class="col-lg-10">
+					<div class="well bs-component">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-3"></div>
+								<div class="col-lg-7">
+									<button ngf-select="uploadFiles($files, $invalidFiles)"
+										multiple accept="*/*" class="btn btn-primary" >Upload</button>									
+								</div>
+									
+							</div>
+							<div class="form-group">
+								<div class="col-sm-3">									
+								</div>
+								<div class="col-lg-8">
+									<span style="color:red">{{errReq}}</span>								
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+
+			</div>
+</section>
+<style>
+#aleretModalinner {
+	border: thick;
+	border-color: orange;
+}
+
+#alertModal {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -200px;
+	padding: 0px;
+}
+
+#errorModalinner {
+	border: thick;
+	border-color: orange;
+}
+
+#errorModal {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -200px;
+	padding: 0px;
+}
+
+}
+#imgdivcon {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+#imgdivlabel, #imgdiv {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#imgdiv {
+	z-index: 10;
+}
+
+/** **/
+.Table {
+	display: table;
+}
+
+.Heading {
+	/*display: table-row; */
+	width: 100%;
+}
+
+.Cell-r1 {
+	display: table-cell;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	height: 250px;
+	text-align: left;
+	vertical-align: top;
+	position: relative;
+}
+
+.Cell-r2 {
+	display: table-cell;
+	padding-left: 5px;
+	padding-right: 0px;
+	width: 20%;
+	text-align: right;
+	position: relative;
+}
+/** **/
+.tbl {
+	width: 100%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.even {
+	background-color: #26484D;
+	width: 100%;
+}
+
+.odd {
+	color: white;
+	background-color: #A1B2B3;
+	/** display: inline-block; */
+	width: 100%;
+}
+
+.postedpic-class {
+	cursor: pointer;
+	cursor: hand;
+}
+</style>
+
+

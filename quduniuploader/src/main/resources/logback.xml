@@ -1,0 +1,16 @@
+<configuration>
+
+	<!-- would like to use FileAppender but didnt find a way to log with relative path (with relative path, dont need to specify full path when deploy) -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<root level="warn">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+	
+</configuration>
